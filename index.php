@@ -68,7 +68,7 @@
                       $dt_pelanggan=mysqli_fetch_array($qry_pelanggan);
                       ?>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.
-                      <br><h3><strong>Haloo <?=$dt_pelanggan['nama']?></strong><h3>
+                      <br><h3><strong>Haloo</strong><h3>
                     </h3>
                     <?php }
                     ?>

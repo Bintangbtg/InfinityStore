@@ -146,3 +146,27 @@ if($_SESSION['status_login']!=true){
     ></script>
   </body>
 </html>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+    });
+    
+    var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+  });
+  </script>
+  </body>
+</html>
